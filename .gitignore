@@ -1,0 +1,4 @@
+*.swp
+/coremon
+/*.o
+/depend.mak
