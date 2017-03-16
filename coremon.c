@@ -297,9 +297,7 @@ int main(void) {
 	// Initialize libui
 	uiInitOptions options;
 	const char *err;
-
-	// Initialize libui
-	memset(&options, 0, sizeof (uiInitOptions));
+	memset(&options, 0, sizeof(uiInitOptions));
 	err = uiInit(&options);
 	if (err != NULL) {
 		fprintf(stderr, "error initializing libui: %s", err);
